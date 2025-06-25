@@ -119,7 +119,7 @@ export default function Produtos() {
 
   return (
     <Container className="py-4">
-      <h3 className="text-primary mb-4">Cadastro de Produtos e Serviços</h3>
+      <h3 className="text-dark mb-4">Cadastro de Produtos e Serviços</h3>
 
       {erro && <Alert variant="danger">{erro}</Alert>}
 
@@ -147,7 +147,7 @@ export default function Produtos() {
             </Form.Select>
           </Col>
           <Col md={2}>
-            <Button variant="primary" className="w-100" onClick={salvar}>
+            <Button variant="success" className="w-100" onClick={salvar}>
               {editando ? 'Atualizar' : 'Cadastrar'}
             </Button>
           </Col>

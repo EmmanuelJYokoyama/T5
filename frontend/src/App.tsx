@@ -8,9 +8,9 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 export default function App() {
   return (
     <BrowserRouter>
-      <Navbar bg="dark" variant="dark" expand="lg">
-        <Container>
-          <Navbar.Brand href="/">Agenda WB</Navbar.Brand>
+      <Navbar bg="danger" variant="dark" expand="lg">
+        <Container className="d-flex justify-content-between align-items-center">
+          <Navbar.Brand href="/">WorldBeauty</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse>
             <Nav className="me-auto">

@@ -4,6 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+#pink {
+  background-color: #ff69b4; /* Rosa vibrante */
+}
+
 
 .logo {
   height: 6em;

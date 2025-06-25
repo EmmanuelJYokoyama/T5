@@ -74,7 +74,7 @@ export default function Consumo() {
 
   return (
     <Container className="py-4">
-      <h3 className="text-primary mb-4">Registrar Consumo</h3>
+      <h3 className="text-dark mb-4">Registrar Consumo</h3>
 
       {erro && <Alert variant="danger">{erro}</Alert>}
       {mensagem && <Alert variant="success">{mensagem}</Alert>}
@@ -119,7 +119,7 @@ export default function Consumo() {
         />
       </Form.Group>
 
-      <Button onClick={registrarConsumo}>Registrar</Button>
+      <Button variant= "success" onClick={registrarConsumo}>Registrar</Button>
     </Container>
   );
 }

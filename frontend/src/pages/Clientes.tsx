@@ -72,7 +72,7 @@ export default function Clientes() {
   return (
     <Container className="py-4 d-flex justify-content-center">
       <Card style={{ width: '100%', padding: '2rem' }}>
-        <h4 className="mb-4 text-center text-primary">Cadastro de Clientes</h4>
+        <h4 className="mb-4 text-center text-dark">Cadastro de Clientes</h4>
 
         <Form className="mb-4">
           <Row className="g-3">
@@ -100,7 +100,7 @@ export default function Clientes() {
               </Form.Select>
             </Col>
             <Col md={1}>
-              <Button variant="primary" onClick={salvar} className="w-150">
+              <Button variant="success" onClick={salvar} className="w-150">
                 {editando ? 'Salvar' : 'Cadastrar'}
               </Button>
             </Col>
