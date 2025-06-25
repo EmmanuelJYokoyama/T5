@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Clientes from './pages/Clientes';
 import Produtos from './pages/Produtos';
 import Consumo from './pages/Consumo';
+import Home from './pages/Home';
 import Relatorios from './pages/Relatorios';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 
@@ -24,7 +25,7 @@ export default function App() {
       </Navbar>
 
       <Routes>
-        <Route path="/" element={<Clientes />} />
+        <Route path="/" element={<Home />} />
         <Route path="/clientes" element={<Clientes />} />
         <Route path="/produtos" element={<Produtos />} />
         <Route path="/consumo" element={<Consumo />} />
