@@ -12,6 +12,10 @@ npx prisma generate
 npx prisma migrate dev
 npm run dev
 ```
+Na pasta src/ crie um arquivo .env e adicione a seguinte linha:
+```bash
+DATABASE_URL = "mysql://usuario:senha@wbdb"
+```
 
 ### Frontend
 
